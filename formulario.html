@@ -7,12 +7,14 @@
     <body>
         <form action="calculadora.php"  method="get">
             <label for="op1">Primer operando</label>
-            <input type="text" id="op1"   /><br/>
+            <input type="text" id="op1" name="op1"  /><br/>
 
             <label for="op2">Segundo operando</label>
-            <input type="text" id ="op2"  /><br />
+            <input type="text" id ="op2" name="op2"/><br />
 
-            <select>
+            <input type="submit" value="Calcular"  />
+
+            <select name="op">
                 <option value="+">Suma</option>
                 <option value="-">Resta</option>
                 <option value="*">Multiplicar</option>
